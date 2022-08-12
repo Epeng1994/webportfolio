@@ -26,20 +26,35 @@ html{
   justify-content: center;
   height:30vw;
   align-items: center;
-  width:60vw;
+  width:70vw;
   padding-left: 20vw;
   padding-right: 20vw;
+  padding-bottom: 5vw;
 }
 .aboutme img{
   border-radius: 20vw;
   width:20vw;
 }
 
+.aboutme p{
+  width:65%;
+}
+
 .aboutmeinfo{
   display:flex;
   flex-flow: row;
+  justify-content: space-between;
 }
 
 .skills{
   margin-top: 10vw;
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+  background-color: antiquewhite;
+  text-align: center;
+  height:20vw;
+}
+
+.skillsicons img{
+  width:8vw;
 }
