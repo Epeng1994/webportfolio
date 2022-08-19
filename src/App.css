@@ -18,6 +18,19 @@ html{
   justify-content: space-between;
   text-align: center;
 }
+
+.banner-div nav a{
+  margin-top: .5vw;
+  margin-bottom: .5vw;
+  padding:1vw;
+  border-radius: 20px;
+  background-color: burlywood;
+}
+
+.banner-div nav a:hover{
+  background-color: aliceblue;
+}
+
 .aboutme{
   margin-top:20vw;
   background-color: antiquewhite;
