@@ -37,7 +37,7 @@ html{
   display:flex;
   flex-flow: column;
   justify-content: center;
-  height:30vw;
+  height:25vw;
   align-items: center;
   width:70vw;
   padding-left: 20vw;
@@ -65,9 +65,20 @@ html{
   padding-bottom: 5vw;
   background-color: antiquewhite;
   text-align: center;
-  height:20vw;
+  height:15vw;
 }
 
 .skillsicons img{
   width:8vw;
+}
+
+
+.contactMeContainer{
+  background-color: antiquewhite;
+  height:20vw;
+}
+.contactMeForm{
+  background-color:rgb(158, 139, 90) ;
+  width:15vw;
+  padding:5vw;
 }
