@@ -39,7 +39,7 @@ html{
   justify-content: center;
   height:25vw;
   align-items: center;
-  width:70vw;
+  width:60%;
   padding-left: 20vw;
   padding-right: 20vw;
   padding-bottom: 5vw;
@@ -75,10 +75,24 @@ html{
 
 .contactMeContainer{
   background-color: antiquewhite;
-  height:20vw;
+  height:40vw;
+  display:flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: space-between;
 }
 .contactMeForm{
-  background-color:rgb(158, 139, 90) ;
-  width:15vw;
+  background-color:rgb(202, 186, 146,.5) ;
+  width:13vw;
   padding:5vw;
+  border-radius: 5vw;
+}
+
+.contactMeIcons{
+  width:5vw;
+}
+.socialMediaIcons{
+  width:20vw;
+  display:flex;
+  justify-content: space-between;
 }

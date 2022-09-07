@@ -2,7 +2,7 @@
 
 function Skills(){
     return(
-        <div className = 'skills'>
+        <div className = 'skills' id='skills'>
             <h1>Skills</h1>
             <div className ='skillsicons'>
                 <img src = './assets/CSS.png' alt='css icon'/>
