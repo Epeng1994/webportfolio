@@ -15,7 +15,10 @@ function Skills(){
                 <img src = './assets/API.png' alt='API icon'/>
                 <img src = './assets/GITHUB.png' alt='GITHUB icon'/>
                 <img src = './assets/JEST.png' alt='JEST icon'/>
-                <img src='./assets/VS1.png' alt='VS icon' />
+                <img src = './assets/EXPRESS.png' alt='EXPRESS icon' />
+                <img src = './assets/FIGMA.png' alt='FIGMA icon' />
+                <img src = './assets/JIRA.png' alt='JIRA icon' />
+                <img src = './assets/VS1.png' alt='VS icon' />
             </div>
         </div>
     )

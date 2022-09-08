@@ -66,10 +66,16 @@ html{
   background-color: antiquewhite;
   text-align: center;
   height:15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
-
+.skillsicons{
+  width:60vw;
+}
 .skillsicons img{
-  width:8vw;
+  width:6vw;
 }
 
 
