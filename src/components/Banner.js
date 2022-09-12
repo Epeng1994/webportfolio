@@ -1,20 +1,24 @@
-import {Link} from 'react-router-dom'
+import React from 'react'
 
-function banner(){
+function Banner(){
+
+    const handleOnClick = e =>{
+        console.log(e.target)
+    }
 
     return(
         <div className ='banner-div'>
             <h1>Eric Peng's Portfolio</h1>
             <nav>
-                <a href = '#home'>Home</a>
-                <a href = '#aboutme'>About Me</a>
-                <a href = '#skills'>Skills</a>
-                <a href = '#projects'>Projects</a>
-                <a href = '#contactme'>Contact Me</a>
+                <div name = '#home' onClick ={handleOnClick}>Home</div>
+                <div name = '#aboutme' onClick ={handleOnClick}>About Me</div>
+                <div name = '#skills' onClick ={handleOnClick}>Skills</div>
+                <div name = '#projects' onClick ={handleOnClick}>Projects</div>
+                <div name = '#contactme' onClick ={handleOnClick}>Contact Me</div>
             </nav>
         </div>
     )
 }
 
 
-export default banner
+export default Banner
