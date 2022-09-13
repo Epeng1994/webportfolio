@@ -7,10 +7,12 @@ import React from 'react';
 
 */
 
-function ProjectTemplate(){
+function ProjectTemplate(props){
     return(
-        <div>
-            
+        <div className = 'projectComponent'>
+            <h2>{props.title}</h2>
+            <a href={props.githubLink}>GitHub link</a>
+            <img src={props.img}/>
         </div>
     )
 }
