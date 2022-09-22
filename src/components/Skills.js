@@ -1,7 +1,21 @@
 import SkillsTemplate from "./Templates/SkillsTemplate";
 
 function Skills(){
-    const skillsMap = ['CSS', 'HTML5', 'JS', 'NODEJS', 'REACT','REDUX','GIT','API','GITHUB','JEST','EXPRESS','FIGMA','JIRA','VS1']
+    const skillsMap = [
+        'CSS',
+        'HTML5', 
+        'JS', 
+        'NODEJS', 
+        'REACT',
+        'REDUX',
+        'GIT',
+        'API',
+        'GITHUB',
+        'JEST',
+        'EXPRESS',
+        'FIGMA',
+        'JIRA',
+        'VS1']
     return(
         <div className = 'skills' id='skills'>
             <h1>Skills</h1>
