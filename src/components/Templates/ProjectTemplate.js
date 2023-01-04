@@ -8,11 +8,14 @@ import React from 'react';
 */
 
 function ProjectTemplate(props){
+
+    const {title, githubLink, img} = props.project
+    
     return(
         <div className = 'projectComponent'>
-            <h2>{props.title}</h2>
-            <a href={props.githubLink}>GitHub link</a>
-            <img src={props.img}/>
+            <h2>{title}</h2>
+            <a href={githubLink}>GitHub link</a>
+            <img src={`./assets/${img}`}/>
         </div>
     )
 }

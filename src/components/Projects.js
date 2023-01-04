@@ -1,10 +1,26 @@
+import ProjectTemplate from "./Templates/ProjectTemplate";
+
+
 function Projects(){
-    const projArr = []
+    const projArr = [
+        {
+            title:'Weather With You',
+            githubLink:'https://github.com/Epeng1994/weatherApp',
+            img:'weather_with_you.png'
+        }
+    ]
+
+
     return(
         <div id='projects'>
-            <p>Proj1</p>
-            <p>Proj2</p>
-            <p>Proj3</p>
+            {
+                projArr.map(project=>{
+                    return(
+                        <ProjectTemplate project={project}/>
+                    )
+                })
+            }
+
         </div>
     )
 }

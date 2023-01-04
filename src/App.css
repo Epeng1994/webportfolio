@@ -104,3 +104,19 @@ html{
   display:flex;
   justify-content: space-between;
 }
+
+.projectComponent{
+  height:30vw;
+  width:20vw;
+  display:flex;
+  flex-flow:column;
+  justify-content: center;
+  align-items: center;
+  padding:3vw;
+}
+
+.projectComponent img{
+  height:100%;
+  width:100%;
+  border-radius: 5vw;
+}
