@@ -105,6 +105,10 @@ html{
   justify-content: space-between;
 }
 
+.projects{
+  background-color: #74BDE0;
+}
+
 .projectComponent{
   height:30vw;
   width:20vw;

@@ -12,7 +12,7 @@ function Projects(){
 
 
     return(
-        <div id='projects'>
+        <div className = 'projects' id='projects'>
             {
                 projArr.map(project=>{
                     return(
