@@ -19,15 +19,17 @@ html{
   text-align: center;
 }
 
-.banner-div nav div{
+.banner-div nav a{
   margin-top: .5vw;
   margin-bottom: .5vw;
   padding:1vw;
   border-radius: 20px;
   background-color:#4A8DB7;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.banner-div nav div:hover{
+.banner-div nav a:hover{
   background-color: #A1E1FA;
 }
 
@@ -39,8 +41,8 @@ html{
   justify-content: space-between;
   height:40vw;
   align-items: center;
-  padding-left: 7vw;
-  padding-right: 7vw;
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
   padding-bottom: 5vw;
   width: 85vw;
 }

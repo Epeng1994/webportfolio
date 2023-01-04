@@ -1,20 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 function Banner(){
 
+
     const handleOnClick = e =>{
-        console.log(e.target)
+        
     }
 
     return(
         <div className ='banner-div'>
             <h1>Eric Peng's Portfolio</h1>
             <nav>
-                <div name = '#home' onClick ={handleOnClick}>Home</div>
-                <div name = '#aboutme' onClick ={handleOnClick}>About Me</div>
-                <div name = '#skills' onClick ={handleOnClick}>Skills</div>
-                <div name = '#projects' onClick ={handleOnClick}>Projects</div>
-                <div name = '#contactme' onClick ={handleOnClick}>Contact Me</div>
+                <a href = '#home' onClick ={handleOnClick}>Home</a>
+                <a href = '#aboutme' onClick ={handleOnClick}>About Me</a>
+                <a href = '#skills' onClick ={handleOnClick}>Skills</a>
+                <a href = '#projects' onClick ={handleOnClick}>Projects</a>
+                <a href = '#contactme' onClick ={handleOnClick}>Contact Me</a>
             </nav>
         </div>
     )
