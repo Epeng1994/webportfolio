@@ -1,11 +1,11 @@
 html{
-  background-image: url('../public/assets/pexels-karolina-grabowska-5208871.jpg');
+  background-image: url('../public/assets/keyboard.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 .banner-div{
-  background-color: antiquewhite;
+  background-color: #3B7197;
   display: flex;
   justify-content: space-between;
   padding-right: 2vw;
@@ -13,40 +13,40 @@ html{
 }
 .banner-div nav{
   width:40%;
-  background-color: antiquewhite;
+  background-color: #3B7197;
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
 
-.banner-div nav a{
+.banner-div nav div{
   margin-top: .5vw;
   margin-bottom: .5vw;
   padding:1vw;
   border-radius: 20px;
-  background-color: burlywood;
+  background-color:#4A8DB7;
 }
 
-.banner-div nav a:hover{
-  background-color: aliceblue;
+.banner-div nav div:hover{
+  background-color: #A1E1FA;
 }
 
 .aboutme{
   margin-top:20vw;
-  background-color: antiquewhite;
+  background-color: #3B7197;
   display:flex;
   flex-flow: column;
-  justify-content: center;
-  height:25vw;
+  justify-content: space-between;
+  height:40vw;
   align-items: center;
-  width:60%;
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
   padding-bottom: 5vw;
+  width: 85vw;
 }
 .aboutme img{
   border-radius: 20vw;
-  width:20vw;
+  width:30vw;
 }
 
 .aboutme p{
@@ -63,7 +63,7 @@ html{
   margin-top: 10vw;
   padding-top: 2vw;
   padding-bottom: 5vw;
-  background-color: antiquewhite;
+  background-color: #3B7197;
   text-align: center;
   height:15vw;
   display: flex;
@@ -80,7 +80,7 @@ html{
 
 
 .contactMeContainer{
-  background-color: antiquewhite;
+  background-color: #3B7197;
   height:40vw;
   display:flex;
   align-items: center;
@@ -88,7 +88,7 @@ html{
   justify-content: space-between;
 }
 .contactMeForm{
-  background-color:rgb(202, 186, 146,.5) ;
+  background-color:#74BDE0 ;
   width:13vw;
   padding:5vw;
   border-radius: 5vw;
