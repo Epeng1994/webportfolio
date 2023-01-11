@@ -1,12 +1,5 @@
 import React from 'react';
 
-/*
-    overall div to contain
-    img/screenshot of page on click brings to github
-    link to  deployed site, github
-
-*/
-
 function ProjectTemplate(props){
 
     const {title, githubLink, img} = props.project
@@ -14,8 +7,8 @@ function ProjectTemplate(props){
     return(
         <div className = 'projectComponent'>
             <h2>{title}</h2>
-            <a href={githubLink}>GitHub link</a>
-            <img src={`./assets/${img}`}/>
+            <a href={githubLink}><img alt = 'github' className = 'icon-small' src= './assets/github.png'/></a>
+            <img className = 'project-gif' alt = 'project-gif' src={`./assets/${img}`}/>
         </div>
     )
 }
