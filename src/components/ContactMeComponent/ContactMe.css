@@ -1,0 +1,27 @@
+.contactMeContainer{
+    background-color: #3B7197;
+    height:25vw;
+    display:flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.contactMeForm{
+    background-color:#74BDE0 ;
+    width:15vw;
+    height:7vw;
+    padding:3vw;
+    border-radius: 5vw;
+    display:flex;
+    flex-flow: column;
+}
+
+
+.contactMeIcons{
+    width:5vw;
+}
+.socialMediaIcons{
+    width:20vw;
+    display:flex;
+    justify-content: space-between;
+}

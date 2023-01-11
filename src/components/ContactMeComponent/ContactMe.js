@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import './ContactMe.css';
 
 const serviceID = process.env.REACT_APP_MY_SERVICE_ID
 const templateID = process.env.REACT_APP_MY_TEMPLATE_ID
@@ -24,19 +24,16 @@ const ContactMe = () => {
       <h1>Contact me below!</h1>
       <div className = 'contactMeFormDiv'>
         <form ref={form} onSubmit={sendEmail}className ='contactMeForm'>
-          <label>Name</label>
           <input type="text" name="user_name" placeholder ='Name'/>
-          <label>Email</label>
           <input type="email" name="user_email" placeholder ='Email'/>
-          <label>Message</label>
           <textarea name="message" placeholder ='Message'/>
           <input type="submit" value="Send" />
         </form>
       </div>
       <div className = 'socialMediaIcons'>
-        <a href ='https://www.linkedin.com/in/epeng1994/'><img src = './assets/Linkedin.png' className = 'contactMeIcons'/></a>
-        <a href ='https://github.com/Epeng1994'><img src = './assets/GITHUB.png' className = 'contactMeIcons'/></a>
-        <a href ='https://docs.google.com/document/d/1Hyj8rdMRuDayrAAQ3DPh-gB7g_R8cjuyp9PXuCqjOKQ/edit?usp=sharing'><img src = './assets/RESUME.png' className = 'contactMeIcons'/></a>
+        <a href ='https://www.linkedin.com/in/epeng1994/'><img src = './assets/Linkedin.png' className = 'contactMeIcons' alt='linkedin'/></a>
+        <a href ='https://github.com/Epeng1994'><img src = './assets/GITHUB.png' className = 'contactMeIcons' alt='github'/></a>
+        <a href ='https://docs.google.com/document/d/1Hyj8rdMRuDayrAAQ3DPh-gB7g_R8cjuyp9PXuCqjOKQ/edit?usp=sharing'><img src = './assets/RESUME.png' className = 'contactMeIcons' alt='resume'/></a>
       </div>
     </div>
 
