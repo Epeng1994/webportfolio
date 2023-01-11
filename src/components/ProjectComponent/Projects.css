@@ -1,0 +1,38 @@
+.projects{
+    background-color: #74BDE0;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vw;
+}
+
+.projectComponent{
+    height:25vw;
+    width:25vw;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    padding:3vw;
+
+}
+
+.projectComponent .icon-small{
+    height:3vw;
+    width:3vw;
+}
+
+.projectComponent img{
+    height:20vw;
+    border-radius: 3vw;
+}
+
+.container-row{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3B7197;
+    border-radius: 3vw;
+}
