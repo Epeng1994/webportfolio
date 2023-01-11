@@ -39,16 +39,15 @@ html{
   display:flex;
   flex-flow: column;
   justify-content: space-between;
-  height:40vw;
+  height:20vw;
   align-items: center;
   padding-left: 7.5vw;
   padding-right: 7.5vw;
   padding-bottom: 5vw;
-  width: 85vw;
 }
 .aboutme img{
   border-radius: 20vw;
-  width:30vw;
+  width:20vw;
 }
 
 .aboutme p{
@@ -81,46 +80,5 @@ html{
 }
 
 
-.contactMeContainer{
-  background-color: #3B7197;
-  height:40vw;
-  display:flex;
-  align-items: center;
-  flex-flow: column;
-  justify-content: space-between;
-}
-.contactMeForm{
-  background-color:#74BDE0 ;
-  width:13vw;
-  padding:5vw;
-  border-radius: 5vw;
-}
 
-.contactMeIcons{
-  width:5vw;
-}
-.socialMediaIcons{
-  width:20vw;
-  display:flex;
-  justify-content: space-between;
-}
 
-.projects{
-  background-color: #74BDE0;
-}
-
-.projectComponent{
-  height:30vw;
-  width:20vw;
-  display:flex;
-  flex-flow:column;
-  justify-content: center;
-  align-items: center;
-  padding:3vw;
-}
-
-.projectComponent img{
-  height:100%;
-  width:100%;
-  border-radius: 5vw;
-}
